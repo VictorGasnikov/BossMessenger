@@ -1,0 +1,29 @@
+name: BossMessenger
+version: 4.0.1
+author: Victor2748
+main: net.pixelatedd3v.bossmessenger.BossMessenger
+softdepend: [Vault, PlaceholderAPI, MVdWPlaceholderAPI, VanishNoPacket]
+commands:
+  bm:
+    aliases: [bossmessenger, bmessenger]
+permissions:
+  bossmessenger.list.default:
+    default: true
+  bossmessenger.list.actionbar:
+    default: true
+  bossmessenger.list.titles:
+    default: true
+  bossmessenger.list.chat:
+    default: true
+  bossmessenger.list.tab:
+    default: true
+  bossmessenger.command.toggle:
+    default: true
+  bossmessenger.command.pm:
+    default: true
+  bossmessenger.command.gui:
+    default: true
+  bossmessenger.player.toggle:
+    default: true
+  bossmessenger.player.pm:
+    default: true

@@ -1,0 +1,46 @@
+# BossMessenger - By Victor2748
+# 
+# If you want to have 1000+ PlaceHolders
+# Download PlaceholderAPI: http://spigotmc.org/resources/placeholderapi.6245/
+
+CheckUpdates: false
+UseMessageListPermissions: false
+RdmColorList: '1234567890abcdef'
+UsePlaceholderAPI: false
+UseMvdwPlaceholderAPI: false
+WelcomeMessageType: TITLE
+Broadcast:
+  DefaultTime: 10
+  Percent: 100
+Schedule:
+  DefaultTime: 60
+  Percent: 100
+PrivateMessage:
+  Format: '&b%name%: &f%msg%' 
+  DefaultTime: 5 
+  Percent: 100
+  MessageType: BOSSBAR
+Protocol:
+  Wither:
+    UpdateInterval: 20
+    HealthyWitherRange: 32
+    DamagedWitherRange: 32
+DefaultBossBar:
+    Color: BLUE
+    Style: SEGMENTED_20
+    CreateFog: false
+    DarkenSky: false
+CancelDefaultMessages:
+  Join: false
+  Quit: false
+  Death: false
+MySql:
+  Host: localhost
+  Port: '3306'
+  Database: MyDatabase
+  Username: root
+  Password: password
+  AutoSync:
+    Enabled: false
+    Delay: 300
+ConfigVersion: 0

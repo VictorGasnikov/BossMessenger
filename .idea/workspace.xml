@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BossMessenger:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="440f8b10-4810-4885-a914-8de4ba681f8b" name="Default" comment="Commit all changes">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/global/RandomPercentEvaluator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/ServerNameGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/MessageAttribute.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/MessageAttributeType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/bossbar/BossBarAPI.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UIType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/ListSelectListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageAttributeManagerGUI.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelectListener.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BossMessenger.iml" afterPath="$PROJECT_DIR$/BossMessenger.iml" />
+      <change beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/BossMessenger.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/BossMessenger.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/GroupManager.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/GroupManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/Metrics.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/Metrics.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/Reference.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/Reference.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/Updater.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/Updater.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/BossMessengerAPI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/BossMessengerAPI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/EventManager.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/EventManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/GlobalMessageEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/GlobalMessageEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/GlobalMessageListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/GlobalMessageListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/MessageLocation.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/MessageLocation.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/MessagePriority.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/MessagePriority.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/PlayerMessageEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/PlayerMessageEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/api/events/PlayerMessageListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/PlayerMessageListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/config/ConfigManager.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/ConfigManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/config/Settings.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/Settings.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/database/Database.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/database/Database.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/database/MySQL.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/database/MySQL.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/database/SQLite.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/database/SQLite.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/lang/Lang.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/lang/Lang.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/lang/LangUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/lang/LangUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/listeners/PlayerChatListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerChatListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/listeners/PlayerDeathListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerDeathListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/listeners/PlayerInventoryListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerInventoryListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/listeners/PlayerJoinListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerJoinListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/listeners/PlayerQuitListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerQuitListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/MessageList.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/MessageList.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/MessageListStorage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/MessageListStorage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/events/Event.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/Event.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/events/JoinEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/JoinEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/events/PVPDeathEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/PVPDeathEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/events/QuitEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/QuitEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/events/WelcomeEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/WelcomeEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/GlobalPercentVariable.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/GlobalPercentVariable.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/GlobalPlaceholder.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/GlobalPlaceholder.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/MessageGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/MessageGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/PlaceholderMode.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/PlaceholderMode.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/PlayerPercentVariable.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/PlayerPercentVariable.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/PlayerPlaceholder.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/PlayerPlaceholder.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/percentage/GlobalPercentEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/GlobalPercentEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/percentage/PlayerPercentEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/PlayerPercentEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/percentage/global/RandomPercentEvaluator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/percentage/global/ServerFullnessEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/global/ServerFullnessEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/percentage/player/PlayerHealthEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/player/PlayerHealthEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/GlobalPlaceholderEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/GlobalPlaceholderEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/PlayerPlaceholderEvaluator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/PlayerPlaceholderEvaluator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/global/MaxPlayersGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/MaxPlayersGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/global/OnlinePlayersGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/OnlinePlayersGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/global/RdmColorGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/RdmColorGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/global/ServerNameGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/player/PlayerNameGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/player/PlayerNameGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/generator/evaluators/placeholders/player/PlayerWorldGenerator.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/player/PlayerWorldGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/GlobalMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/GlobalMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/GlobalTimedMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/GlobalTimedMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/Message.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/Message.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/Percent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/Percent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/PercentMessage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/PlayerMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/PlayerMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/PlayerTimedMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/PlayerTimedMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/TemplateMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/TemplateMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/message/TimedMessage.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/TimedMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/Messenger.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/Messenger.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/MessengerManager.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/MessengerScope.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerScope.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/PrivateMessengerPool.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/PrivateMessengerPool.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/MessengerModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/MessengerModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/MessengerModuleType.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/MessengerModuleType.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/StandardActionbarModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardActionbarModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/StandardBossbarModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardBossbarModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/StandardChatModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardChatModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/StandardTabModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardTabModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/modules/StandardTitleModule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardTitleModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/DelayedMessageUpdater.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/DelayedMessageUpdater.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/FinishSchedule.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/FinishSchedule.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/MessageDelay.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/MessageDelay.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/MessageShow.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/MessageShow.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/PlayerStandardMessenger.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/PlayerStandardMessenger.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/RemoveBroadcast.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/RemoveBroadcast.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/RemoveDisplay.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/RemoveDisplay.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/RemoveEvent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/RemoveEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/messengers/standardmessenger/StandardMessenger.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/StandardMessenger.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/task/ScheduledTask.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/task/ScheduledTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/messenger/task/Task.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/task/Task.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/ActionBar.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/ActionBar.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/BossBar.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/BossBar.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/Tab.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/Tab.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/Title.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/Title.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/Reflection.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/Reflection.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/BossBarAPI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/OldBossBarAPI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/BossBarHack.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/BossBarHack.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/BossBarPlugin.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/BossBarPlugin.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/reflection/AccessUtil.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/AccessUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/reflection/ClassBuilder.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/ClassBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/reflection/MathUtil.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/MathUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/reflection/NMSClass.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/NMSClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/protocol/impl/babywither/reflection/NMUClass.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/NMUClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/ArrayOfPoll.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/ArrayOfPoll.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/ArrayOfPollOption.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/ArrayOfPollOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/GetAvailablePolls.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/GetAvailablePolls.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/GetAvailablePollsResponse.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/GetAvailablePollsResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/LoadPoll.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/LoadPoll.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/LoadPollResponse.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/LoadPollResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/LoadedPoll.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/LoadedPoll.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/ObjectFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/Poll.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/Poll.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/PollOption.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/PollOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/Service.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/Service.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/ServiceSoap.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/ServiceSoap.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/VoteMultipleChoice.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/VoteMultipleChoice.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/service/feedback/VoteMultipleChoiceResponse.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/service/feedback/VoteMultipleChoiceResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/Actions.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/Actions.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/MessagePart.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/MessagePart.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/commands/CommandInfo.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/commands/CommandInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/commands/Commands.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/commands/Commands.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/AnvilGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/AnvilGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/ChestGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/ChestGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/GUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/GUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/GUIComponent.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/GUIComponent.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/GUIHolder.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/GUIHolder.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/GUIUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/GUIUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/ItemUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/ItemUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/UI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/UIManager.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UIManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/UISession.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UISession.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/UIType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/chat/ChatListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/chat/ChatUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/chat/ChatUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/AlertDialog.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/AlertDialog.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/AnvilEnterListener.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/AnvilEnterListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/ChatStringSequenceReader.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ChatStringSequenceReader.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/ConfirmDialog.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ConfirmDialog.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/RawAnvilControl.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/RawAnvilControl.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/SelectorMenu.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/SelectorMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/ShortPrompt.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ShortPrompt.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/dialogs/YesNoCancelDialog.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/YesNoCancelDialog.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/MainGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/MainGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/AutoMessengerGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/AutoMessengerGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/FullMessageGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/FullMessageGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/ListSelectListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/ListSelector.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/ListSelector.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/MessageListGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageListGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/MessengerModuleDescriptor.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessengerModuleDescriptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/automessenger/MessengerTypeSelector.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessengerTypeSelector.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/broadcast/BroadcastGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/broadcast/BroadcastGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/events/EventGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/events/EventGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/events/EventMessageGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/events/EventMessageGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/SchedulerGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/SchedulerGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskEditGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskEditGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskManagerGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskManagerGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskManagerListGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskManagerListGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelectListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelector.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelector.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/settings/MySqlGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/settings/MySqlGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/admin/settings/SettingsGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/settings/SettingsGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/ui/gui/menus/user/UserGUI.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/user/UserGUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/utils/MessageUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/utils/MessageUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/utils/MySqlUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/utils/MySqlUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/pixelatedev/bossmessenger/utils/RandomUtils.java" afterPath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/utils/RandomUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbar/ActionBarAPI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/titles/TitleAPI.java" afterPath="" />
+    </list>
+    <ignored path="bossmessenger.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/classes/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bossmessenger" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/manager/MessageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessengerManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalPlaceholder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/GlobalPlaceholder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/MessageGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1751">
+              <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrivateMessengerPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/PrivateMessengerPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessengerScope.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YesNoCancelDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/YesNoCancelDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageAttributeManagerGUI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageAttributeManagerGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/MaxPlayersGenerator.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/PlayerPlaceholder.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/GlobalMessageListener.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/PlayerMessageEvent.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/GlobalMessageEvent.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerQuitListener.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerDeathListener.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/MessageShow.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/MessengerModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardBossbarModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardActionbarModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardChatModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardTabModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/modules/StandardTitleModule.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerJoinListener.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/PlayerStandardMessenger.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/bossbar/BossBarAPI.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/Settings.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/babywither/reflection/ClassBuilder.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/GroupManager.java" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/BossBar.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/message/Message.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/api/events/EventManager.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/build.bat" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayChangeWorldListener.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/standardmessenger/StandardMessenger.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/commands/Commands.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ConfirmDialog.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/titleapi/CLUpdate.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbarapi/CLUpdate.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/Tab.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/BossMessenger.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/RawAnvilControl.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/titleapi/TitleAPI.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/Title.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbarapi/ActionBarAPI.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbarapi/theAction.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/ActionBar.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UIManager.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/JoinEvent.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/manager/VnpManager.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/QuitEvent.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/global/ServerFullnessEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/OnlinePlayersGenerator.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/manager/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/AnvilGUI.java" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/MessageGenerator.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageAttributeManagerGUI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-14" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="messengers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="automessenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="broadcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bossmessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bossmessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dev/VanishNoPacket.jar!/" />
+    <property name="SearchEverywhereHistoryKey" value="loadevents&#9;PSI&#9;JAVA://com.pixelatedev.bossmessenger.config.ConfigManager#loadEvents" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor\Dropbox\Development\JetBrains\Java Projects\bossmessenger\src\net\pixelatedd3v\bossmessenger\protocol\impl\actionbarapi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.pixelatedd3v.bossmessenger.listeners" />
+      <recent name="net.pixelatedd3v.bossmessenger.ui.gui.menus.admin.automessenger" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor\Dropbox\Development\JetBrains\Java Projects\bossmessenger\src\net\pixelatedd3v\bossmessenger\protocol\impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BossMessenger" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="440f8b10-4810-4885-a914-8de4ba681f8b" name="Default" comment="" />
+      <created>1452311392601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1452311392601</updated>
+      <workItem from="1452311393924" duration="1573000" />
+      <workItem from="1452318110802" duration="766000" />
+      <workItem from="1452366626008" duration="3058000" />
+      <workItem from="1452384488383" duration="8729000" />
+      <workItem from="1452552688058" duration="7849000" />
+      <workItem from="1452658111449" duration="602000" />
+      <workItem from="1452729982413" duration="1466000" />
+      <workItem from="1452811624690" duration="3062000" />
+      <workItem from="1452897306390" duration="7588000" />
+      <workItem from="1452978314083" duration="1503000" />
+      <workItem from="1452989227610" duration="10203000" />
+      <workItem from="1453007500530" duration="452000" />
+      <workItem from="1453244271805" duration="292000" />
+      <workItem from="1453501703356" duration="61000" />
+      <workItem from="1453503981517" duration="344000" />
+      <workItem from="1453504340838" duration="153000" />
+      <workItem from="1453504508551" duration="1455000" />
+      <workItem from="1453506593069" duration="1858000" />
+      <workItem from="1453509784669" duration="901000" />
+      <workItem from="1453513715392" duration="1719000" />
+      <workItem from="1453516093829" duration="21000" />
+      <workItem from="1453571130864" duration="880000" />
+      <workItem from="1453847748385" duration="1653000" />
+      <workItem from="1453934899681" duration="758000" />
+      <workItem from="1454020695325" duration="1265000" />
+      <workItem from="1454077497032" duration="15000" />
+      <workItem from="1454079757827" duration="20000" />
+      <workItem from="1454079806017" duration="4000" />
+      <workItem from="1454088460869" duration="3547000" />
+      <workItem from="1454095390706" duration="73000" />
+      <workItem from="1454096240615" duration="263000" />
+      <workItem from="1454096522819" duration="3867000" />
+      <workItem from="1454109348108" duration="11763000" />
+      <workItem from="1454195278980" duration="295000" />
+      <workItem from="1454201565628" duration="1727000" />
+      <workItem from="1454212306519" duration="71000" />
+      <workItem from="1454212613364" duration="9000" />
+      <workItem from="1454216071673" duration="1400000" />
+      <workItem from="1454264407408" duration="7660000" />
+      <workItem from="1454295561303" duration="1208000" />
+      <workItem from="1454344459490" duration="7529000" />
+      <workItem from="1454376125437" duration="5339000" />
+      <workItem from="1454438817899" duration="4167000" />
+      <workItem from="1454514369249" duration="2238000" />
+      <workItem from="1454548330258" duration="3840000" />
+      <workItem from="1454563715829" duration="166000" />
+      <workItem from="1454608621251" duration="1677000" />
+      <workItem from="1454690964791" duration="1564000" />
+      <workItem from="1454710038614" duration="1253000" />
+      <workItem from="1454732712037" duration="808000" />
+      <workItem from="1454876676642" duration="42000" />
+      <workItem from="1454876736036" duration="59000" />
+      <workItem from="1454903143255" duration="2386000" />
+      <workItem from="1454986405682" duration="740000" />
+      <workItem from="1455155766326" duration="1490000" />
+      <workItem from="1455245490957" duration="479000" />
+      <workItem from="1455246015241" duration="305000" />
+      <workItem from="1455323142293" duration="150000" />
+      <workItem from="1455346695594" duration="224000" />
+      <workItem from="1455346937360" duration="1315000" />
+      <workItem from="1455680718734" duration="28000" />
+      <workItem from="1456005475981" duration="74000" />
+      <workItem from="1456006134990" duration="278000" />
+      <workItem from="1456006610167" duration="2977000" />
+      <workItem from="1456018349960" duration="206000" />
+      <workItem from="1456018623395" duration="1534000" />
+      <workItem from="1456027311721" duration="1409000" />
+      <workItem from="1456046674521" duration="87000" />
+      <workItem from="1456099456497" duration="3941000" />
+      <workItem from="1456189750667" duration="1730000" />
+      <workItem from="1456363829596" duration="152000" />
+      <workItem from="1456533409889" duration="1864000" />
+      <workItem from="1456625790545" duration="619000" />
+      <workItem from="1456686882266" duration="2298000" />
+      <workItem from="1456965232413" duration="13328000" />
+      <workItem from="1457030305076" duration="3557000" />
+      <workItem from="1457138925313" duration="1686000" />
+      <workItem from="1457215577253" duration="3000" />
+      <workItem from="1457215612267" duration="1310000" />
+      <workItem from="1457235052413" duration="2660000" />
+      <workItem from="1457310852831" duration="2181000" />
+      <workItem from="1457329989837" duration="3652000" />
+      <workItem from="1457401129269" duration="1580000" />
+      <workItem from="1457487198782" duration="1267000" />
+      <workItem from="1457572026395" duration="8758000" />
+      <workItem from="1457655359621" duration="8836000" />
+      <workItem from="1457745165035" duration="8596000" />
+      <workItem from="1457827398877" duration="10755000" />
+      <workItem from="1457914533381" duration="11190000" />
+      <workItem from="1457998581955" duration="5520000" />
+      <workItem from="1458182362328" duration="4658000" />
+      <workItem from="1458260470927" duration="2454000" />
+      <workItem from="1458329215424" duration="5092000" />
+      <workItem from="1458449264298" duration="5723000" />
+      <workItem from="1458500626551" duration="9969000" />
+      <workItem from="1458605449499" duration="2076000" />
+      <workItem from="1458707849527" duration="3838000" />
+      <workItem from="1458775031419" duration="10570000" />
+      <workItem from="1458863906538" duration="6564000" />
+      <workItem from="1458923725796" duration="6816000" />
+      <workItem from="1459006537537" duration="2532000" />
+      <workItem from="1459146406382" duration="1080000" />
+      <workItem from="1459185886764" duration="2472000" />
+      <workItem from="1480522671109" duration="3000" />
+      <workItem from="1480880440116" duration="35000" />
+      <workItem from="1480951573043" duration="787000" />
+      <workItem from="1481149767613" duration="601000" />
+      <workItem from="1481239978916" duration="2860000" />
+      <workItem from="1481579630294" duration="741000" />
+      <workItem from="1481836774071" duration="1634000" />
+      <workItem from="1481924318411" duration="17000" />
+      <workItem from="1482295086958" duration="164000" />
+      <workItem from="1482444523936" duration="2399000" />
+      <workItem from="1482879813893" duration="1670000" />
+      <workItem from="1483738198485" duration="70000" />
+      <workItem from="1485314335063" duration="56000" />
+      <workItem from="1485314541811" duration="2047000" />
+      <workItem from="1485316667517" duration="957000" />
+      <workItem from="1485964557191" duration="620000" />
+      <workItem from="1485970384227" duration="4604000" />
+      <workItem from="1485988359838" duration="3254000" />
+      <workItem from="1487447646272" duration="1935000" />
+      <workItem from="1487453541672" duration="1382000" />
+      <workItem from="1487734744314" duration="927000" />
+      <workItem from="1488073892113" duration="41000" />
+      <workItem from="1488245196298" duration="50000" />
+      <workItem from="1488291405952" duration="28000" />
+      <workItem from="1489349471191" duration="87000" />
+      <workItem from="1489427215007" duration="693000" />
+      <workItem from="1489556400167" duration="777000" />
+      <workItem from="1489598875241" duration="4783000" />
+      <workItem from="1489681081304" duration="2183000" />
+      <workItem from="1489864409409" duration="884000" />
+      <workItem from="1489986051721" duration="525000" />
+      <workItem from="1490492135838" duration="885000" />
+      <workItem from="1490743586657" duration="1906000" />
+      <workItem from="1491073152754" duration="403000" />
+      <workItem from="1491530124149" duration="914000" />
+      <workItem from="1491881373255" duration="165000" />
+      <workItem from="1491955525125" duration="2281000" />
+      <workItem from="1492290050908" duration="678000" />
+      <workItem from="1492445937597" duration="705000" />
+      <workItem from="1492446810418" duration="3073000" />
+      <workItem from="1492642476712" duration="1297000" />
+      <workItem from="1492743036458" duration="42000" />
+      <workItem from="1492982187553" duration="486000" />
+      <workItem from="1493076692792" duration="1846000" />
+      <workItem from="1493167405295" duration="337000" />
+      <workItem from="1493249440065" duration="1113000" />
+      <workItem from="1493427173456" duration="1746000" />
+      <workItem from="1493435646393" duration="360000" />
+      <workItem from="1493569344149" duration="2129000" />
+      <workItem from="1493945642435" duration="1196000" />
+      <workItem from="1494183450792" duration="962000" />
+      <workItem from="1494206438437" duration="631000" />
+      <workItem from="1494287626329" duration="1211000" />
+      <workItem from="1494345080644" duration="614000" />
+      <workItem from="1494353689471" duration="215000" />
+      <workItem from="1494376663544" duration="662000" />
+      <workItem from="1495236922221" duration="3114000" />
+      <workItem from="1495670460678" duration="968000" />
+      <workItem from="1495828692458" duration="841000" />
+      <workItem from="1495847318711" duration="1137000" />
+      <workItem from="1496101036008" duration="1408000" />
+      <workItem from="1496451356864" duration="2033000" />
+      <workItem from="1496507669972" duration="2597000" />
+      <workItem from="1496709044385" duration="1965000" />
+      <workItem from="1496877076633" duration="1444000" />
+      <workItem from="1497113850162" duration="1720000" />
+      <workItem from="1498706908111" duration="61000" />
+      <workItem from="1498756222209" duration="770000" />
+      <workItem from="1498791739343" duration="1356000" />
+      <workItem from="1498848091497" duration="1807000" />
+      <workItem from="1498923962869" duration="1217000" />
+      <workItem from="1498935664776" duration="5094000" />
+      <workItem from="1499016756910" duration="1294000" />
+      <workItem from="1499138016997" duration="601000" />
+      <workItem from="1499147911571" duration="163000" />
+      <workItem from="1499223406483" duration="1801000" />
+      <workItem from="1499275141793" duration="3048000" />
+      <workItem from="1499486275365" duration="566000" />
+      <workItem from="1499962108679" duration="699000" />
+      <workItem from="1500138805143" duration="1830000" />
+      <workItem from="1500687628450" duration="837000" />
+      <workItem from="1500851954087" duration="2833000" />
+      <workItem from="1501445167900" duration="1035000" />
+      <workItem from="1501776802024" duration="609000" />
+      <workItem from="1503337105425" duration="820000" />
+      <workItem from="1503684717778" duration="150000" />
+      <workItem from="1504036297427" duration="1796000" />
+      <workItem from="1504101999425" duration="1200000" />
+      <workItem from="1504281896867" duration="859000" />
+      <workItem from="1504378651805" duration="1507000" />
+      <workItem from="1504539452410" duration="477000" />
+      <workItem from="1504753257198" duration="107000" />
+      <workItem from="1504810013294" duration="2874000" />
+      <workItem from="1504899913468" duration="1014000" />
+      <workItem from="1505066707672" duration="964000" />
+      <workItem from="1505410184628" duration="1260000" />
+      <workItem from="1506173169482" duration="2000" />
+      <workItem from="1506262349299" duration="640000" />
+      <workItem from="1506362353740" duration="1143000" />
+      <workItem from="1507229310714" duration="119000" />
+      <workItem from="1507561662293" duration="1224000" />
+      <workItem from="1507746574482" duration="597000" />
+      <workItem from="1507991891920" duration="594000" />
+      <workItem from="1508183046729" duration="1211000" />
+      <workItem from="1508532575302" duration="121000" />
+      <workItem from="1508532906035" duration="1863000" />
+      <workItem from="1508808371499" duration="1220000" />
+      <workItem from="1509156974006" duration="597000" />
+      <workItem from="1509303877285" duration="2521000" />
+      <workItem from="1509397687329" duration="810000" />
+      <workItem from="1509572354966" duration="1252000" />
+      <workItem from="1510176583524" duration="1312000" />
+      <workItem from="1510353478821" duration="1236000" />
+      <workItem from="1510422395137" duration="4853000" />
+      <workItem from="1510703333991" duration="1161000" />
+      <workItem from="1510767794972" duration="16000" />
+      <workItem from="1511063297461" duration="1090000" />
+      <workItem from="1511220456772" duration="274000" />
+      <workItem from="1511570737274" duration="2529000" />
+      <workItem from="1511655114808" duration="186000" />
+      <workItem from="1511997976641" duration="2308000" />
+      <workItem from="1512772859750" duration="869000" />
+      <workItem from="1512785924210" duration="755000" />
+      <workItem from="1513027410241" duration="1221000" />
+      <workItem from="1513129223767" duration="848000" />
+      <workItem from="1513221347310" duration="626000" />
+      <workItem from="1513284607265" duration="1454000" />
+      <workItem from="1513524640075" duration="1470000" />
+      <workItem from="1513716243676" duration="1242000" />
+      <workItem from="1513978607392" duration="831000" />
+      <workItem from="1514036959080" duration="2252000" />
+      <workItem from="1514225643961" duration="1152000" />
+      <workItem from="1514439077099" duration="268000" />
+      <workItem from="1514475438512" duration="1268000" />
+      <workItem from="1514661367843" duration="2609000" />
+      <workItem from="1515445058369" duration="1214000" />
+      <workItem from="1516047928347" duration="779000" />
+      <workItem from="1517677105902" duration="2136000" />
+      <workItem from="1518123862846" duration="804000" />
+      <workItem from="1518407290970" duration="1322000" />
+      <workItem from="1518751489060" duration="1138000" />
+      <workItem from="1518925553498" duration="53000" />
+      <workItem from="1519060176404" duration="163000" />
+      <workItem from="1519351780713" duration="851000" />
+      <workItem from="1519421615990" duration="497000" />
+      <workItem from="1519580055237" duration="658000" />
+      <workItem from="1519582340340" duration="343000" />
+      <workItem from="1520101852058" duration="3210000" />
+      <workItem from="1520631268081" duration="2518000" />
+      <workItem from="1520798079836" duration="596000" />
+      <workItem from="1521060398838" duration="738000" />
+      <workItem from="1521762167665" duration="2349000" />
+      <workItem from="1522183951809" duration="638000" />
+      <workItem from="1522187275188" duration="797000" />
+      <workItem from="1522868204755" duration="1544000" />
+      <workItem from="1523117995537" duration="709000" />
+      <workItem from="1523391189047" duration="1292000" />
+      <workItem from="1524514447550" duration="736000" />
+      <workItem from="1527190217065" duration="608000" />
+      <workItem from="1528405332151" duration="678000" />
+      <workItem from="1528552505867" duration="2388000" />
+    </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1452572161979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452572161979</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <created>1453514811620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1453514811620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="484874000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-14" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2012987" sideWeight="0.5314499" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20469083" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.6567708" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18017058" sideWeight="0.504329" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2012987" sideWeight="0.46855012" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.49166667" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Intellij commit..." />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbarapi/theAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/actionbarapi/ActionBarAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="105" column="79" lean-forward="false" selection-start-line="105" selection-start-column="79" selection-end-line="105" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/ActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UISession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/listeners/PlayerQuitListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/UIManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/Tab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/protocol/impl/titleapi/TabTitleSendEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/QuitEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="69" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/GlobalPercentVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/MaxPlayersGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/WelcomeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/placeholders/global/OnlinePlayersGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="84" lean-forward="false" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/manager/VnpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#883#884#0" expanded="false" />
+            <element signature="e#935#936#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/events/JoinEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/user/UserGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="75" column="75" lean-forward="false" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/evaluators/percentage/global/ServerFullnessEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageListGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="87" column="38" lean-forward="true" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessengerTypeSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/ListSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskSelectListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/scheduler/TaskManagerListGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ChatStringSequenceReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ConfirmDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/SelectorMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/ShortPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/FullMessageGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="177" column="35" lean-forward="true" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/AnvilEnterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/AlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/RawAnvilControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/BossMessenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="159" column="45" lean-forward="false" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/AnvilGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/config/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/MessageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="115" column="49" lean-forward="false" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/manager/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/generator/GlobalPlaceholder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/chat/ChatUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/PrivateMessengerPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/messenger/messengers/MessengerScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/dialogs/YesNoCancelDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/pixelatedd3v/bossmessenger/ui/gui/menus/admin/automessenger/MessageAttributeManagerGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>BossMessenger:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BossMessenger</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
