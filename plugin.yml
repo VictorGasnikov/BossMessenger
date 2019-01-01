@@ -1,5 +1,5 @@
 name: BossMessenger
-version: 4.0.1
+version: 4.0.2
 author: Victor2748
 main: net.pixelatedd3v.bossmessenger.BossMessenger
 softdepend: [Vault, PlaceholderAPI, MVdWPlaceholderAPI, VanishNoPacket]

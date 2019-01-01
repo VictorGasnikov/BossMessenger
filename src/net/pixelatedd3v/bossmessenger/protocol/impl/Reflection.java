@@ -16,6 +16,9 @@ public class Reflection {
 	public static Class<?> getNMSClass(final String className) {
 		final String fullName = "net.minecraft.server." + version + className;
 		Class<?> clazz = null;
+		clazz.getConstructors()[0].newInstance("");
+		
+		
 		try {
 			clazz = Class.forName(fullName);
 		} catch (Exception e) {
